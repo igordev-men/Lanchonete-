@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Mvp da lanchonete</title>
+</head>
+<body>
+   
+    <header>
+        <h1 class="h1-header">Lanchonete</h1>
+        <h4 class="sub-header">Escolha seu lanche</h4>
+    </header>
+    <div class="box-back">
+        <form id="pedidoForm">
+            <label>
+                <img src="galeria/x-burguer.jpg" alt="x-tudo">
+                <h3>X-tudo</h3>
+                <h4>R$50,00</h4>
+                <p>vem pao, ovo, bacon, alface, calabresa, hamburguer e maionese caseira da casa. </p>
+                <input type="checkbox" name="item" value="x-tudo">
+            </label>
+            <label>
+                <img src="galeria/batata.jpg" alt="X-salada">
+                <h3>Batata</h3>
+                <h4>R$ 25,00</h4>
+                <p>Uma porçao gerenerosa de batata com bacon, chedar e mussarela  </p>
+                <input type="checkbox" name="item" value="Batata">
+            </label>
+            <label>
+                <img src="galeria/cebola.jpg" alt="Onion rigs">
+                <h3>Onion Rings</h3>
+                <h4>R$ 35,00</h4>
+                <p>vem pao, ovo, bacon, calabresa, hamburguer e maionese caseira da casa. </p>
+                <input type="checkbox" name="item" value="Batata">
+            </label>
+            <button type="button" class="btn" onclick="enviarPedido()">Enviar pedido!</button>
+
+
+        </form>
+
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
